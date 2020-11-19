@@ -1,4 +1,6 @@
-@import 'bootstrap/bootstrap.scss';
-body {
-    background-color: red;
-}
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+
+@tailwind utilities;
